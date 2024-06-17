@@ -49,15 +49,19 @@ password: mypassword
 
 Database ve RabbitMq bağlantısı kurulduktan sonra Swaggerda /api/ReservationHotels/Add metodu ile yeni reservasyon oluşturulduğunda;
 
-Mesajlaşma Sistemi:
+- Mesajlaşma Sistemi:
 
 Concumer console uygulmasında RabbitMQ mesajlarını iletilme işlemleri yapmılmıştır.
 
-Ekran Çıktısı 
+Ekran Çıktısı
 
-Gerçek Zamanlı Bildirimler:
+![Rabbitmq](https://github.com/MeralTd/HotelReservationSystem/blob/master/1.PNG?raw=true)
+
+- Gerçek Zamanlı Bildirimler:
 
 SignalR_Client uygulamasında yeni rezervasyonlar oluşturulduğunda bu bilgiyi gerçek zamanlı olarak
 bağlı tüm istemcilere gönderir.
 
-Ekran Çıktısı 
+Ekran Çıktısı
+
+![SignalR](https://github.com/MeralTd/HotelReservationSystem/blob/master/2.PNG?raw=true)
