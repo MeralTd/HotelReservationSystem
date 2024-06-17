@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+ rabbitmq:
+  container_name: "rabbitmq"
+  image: rabbitmq:3-management-alpine
+  environment:
+   - RABBITMQ_DEFAULT_USER=user
+   - RABBITMQ_DEFAULT_PASS=mypassword
+  ports:
+   # RabbitMq instance
+   - '5672:5672'
+   # Web instance
+   - '15672:15672'
+  
