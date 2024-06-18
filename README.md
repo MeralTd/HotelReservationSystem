@@ -14,6 +14,11 @@ cd HotelReservationSystem
 update-database
 ```
 
+- Database Bağlantısı
+```
+"DBConnectionString": "Host=localhost;Port=5432;Database=HotelReservationDb;Username=postgres;Password=1234"
+```
+
 
 <h2> Docker RabbitMQ </h2>
 
